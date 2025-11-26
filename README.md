@@ -9,6 +9,7 @@ Companion App to send Dice roll values to AWS so Unity can fetch them via intern
 
 ## 🧱 PyQt app to connect the dice and send values to Unity via AWS
 If you wanna modify the app I recommend running it in venv.
+To modify the server code, modify diceServer.py.
 To modify the UI either:
 1. Modify the DiceWindow.ui with Qt Designer and convert the .ui file to .py file with terminal command.
 ```
