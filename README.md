@@ -2,6 +2,8 @@
 Companion App / TCP-server to connect GoDice D20 bluetooth dice to [DiceRollers Unity project](https://github.com/Pyromaanisorsa/DiceRollers/tree/main).
 Used to send GoDice roll values to AWS, which will be used to send the roll values to Unity via internet.
 
+![Screenshot of the app](DiceRollerPython.png)
+
 How-to-use
 1. Start the app via terminal
 2. Connect your GoDice with Connect button
