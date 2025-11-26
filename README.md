@@ -7,6 +7,7 @@ Companion App to send Dice roll values to AWS so Unity can fetch them via intern
 ![Screenshot of the app](DiceRollerPython.png)
 <br />Figure: Screenshot of the app.
 
+## 🧱 PyQt app to connect the dice and send values to Unity via AWS
 If you wanna modify the app I recommend running it in venv.
 To modify the UI either:
 1. Modify the DiceWindow.ui with Qt Designer and convert the .ui file to .py file with terminal command.
@@ -26,3 +27,4 @@ python app.py
 5. Roll the GoDice and it should send the roll value to AWS on stable roll
 6. AWS returns HTTP response from Lambda function (no rollRequest currently, result sent successfully, error)
 
+## 🕹️ TCP server / locally connecting dice to Unity
