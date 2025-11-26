@@ -9,7 +9,7 @@ If you wanna modify the app I recommend running it in venv.
 To modify the UI either:
 1. Modify the DiceWindow.ui with Qt Designer and convert the .ui file to .py file with terminal command.
 ```
-pyuic6 DiceWindow.ui -o DiceWindows.py
+pyuic6 DiceWindow.ui -o DiceWindow.py
 ```
 2. Modify the DiceWindow.py file directly.
 
