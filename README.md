@@ -1,6 +1,7 @@
 # DiceRollerPython
-Companion App / TCP-server to connect GoDice D20 bluetooth dice to [DiceRollers Unity project](https://github.com/Pyromaanisorsa/DiceRollers/tree/main).
-<br />Created with PyQt and Qt Designer. Used to send GoDice roll values to AWS, which will be used to send the roll values to Unity via internet.
+Companion App to send Dice roll values to AWS so Unity can fetch them via internet & local TCP-server to connect GoDice D20 bluetooth dice to [DiceRollers Unity project](https://github.com/Pyromaanisorsa/DiceRollers/tree/main) indirectly.
+<br />- App created with PyQt and Qt Designer. Used to send GoDice roll values to AWS, which will be used to send the roll values to Unity via internet.
+<br />- TCP server recycles app code (minus UI/PyQt code) and uses it to connect the dice and communicate with Unity via TCP protocol to send roll values to the game directly.
 <br />More details how the AWS backend works with the app, check the Unity project repo's README.
 
 ![Screenshot of the app](DiceRollerPython.png)
