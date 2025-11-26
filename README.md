@@ -31,7 +31,7 @@ python app.py
 ## 🕹️ TCP server / locally connecting dice to Unity
 TCP server code (diceServer.py) has been packaged to single executable with PyInstaller and added to Unity project's Assets/StreamingAssets/diceServer folder.
 godice_manager.py class instance connects the dice to the server and the server passes callback function that is run whenever a stable dice roll has been detected.
-How it works:
+<br />How-it-works:
 1. Unity starts the game and game start the server executable
 2. Unity creates TCP connection to the server
 3. Unity and server start to listen to each other's messages and react to them according to the message's 'type' field value (connect, disconnect, roll)
