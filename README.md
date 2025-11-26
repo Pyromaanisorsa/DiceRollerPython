@@ -1,6 +1,7 @@
 # DiceRollerPython
 Companion App / TCP-server to connect GoDice D20 bluetooth dice to [DiceRollers Unity project](https://github.com/Pyromaanisorsa/DiceRollers/tree/main).
 <br />Created with PyQt and Qt Designer. Used to send GoDice roll values to AWS, which will be used to send the roll values to Unity via internet.
+<br />More details how the AWS backend works with the app, check the Unity project repo's README.
 
 ![Screenshot of the app](DiceRollerPython.png)
 <br />Figure: Screenshot of the app.
@@ -18,9 +19,9 @@ How-to-use:
 ```
 python app.py
 ```
-2. Connect your GoDice with Connect button
+2. Connect your GoDice with Connect/Disconnect button, wait for dice to connect (Dice data will show on the app)
 3. Type your username/playerID you typed in the game
-4. Toggle ready state with ready button when you wanna send roll results to AWS
+4. Toggle ready state with Ready/Unready button when you want to send roll results to AWS
 5. Roll the GoDice and it should send the roll value to AWS on stable roll
 6. AWS returns HTTP response from Lambda function (no rollRequest currently, result sent successfully, error)
 
