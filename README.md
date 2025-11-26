@@ -15,6 +15,9 @@ pyuic6 DiceWindow.ui -o DiceWindow.py
 
 How-to-use:
 1. Start the app via terminal
+```
+python app.py
+```
 2. Connect your GoDice with Connect button
 3. Type your username/playerID you typed in the game
 4. Toggle ready state with ready button when you wanna send roll results to AWS
